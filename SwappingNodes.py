@@ -15,5 +15,6 @@ class Solution:
             ptr1=ptr1.next
             fromstart-=1
         ptr.val, ptr1.val=ptr1.val, ptr.val
+        
         return head
         
